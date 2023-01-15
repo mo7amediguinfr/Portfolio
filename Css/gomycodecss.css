@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family:Lobster;
+    /* background:linear-gradient(70deg,rgb(100, 156, 156),rgb(92, 28, 41)); */
+    background-color: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+    align-items: center;
+    padding: 2rem;
+    /* background-color:#999; */
+}
+a{
+    color: orange;
+}
+.logo{
+    font-size: 4rem;
+}  
+.link-nav-bar a{
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+.link-nav-bar a:hover{
+    text-decoration:underline ;
+}
+
+
+/* about section start */
+
+
+.about{
+    text-align: center;
+    color: orange;
+}
+/* span.portfolio{
+    text-transform: uppercase;
+}
+span.name{
+    text-transform: uppercase;
+} */
+.link{
+    color:rgb(250, 76, 13);
+}
+.here{
+    color:rgb(250, 76, 13);
+}
+.profile{
+    border-radius: 35%;
+}
+.h1p{
+/* background-color: aqua; */
+width: 450px;
+height: 380px;
+line-height: 4rem;
+font-size: 1.5rem;
+/* margin-bottom: 0px; */
+margin-top: 2rem;
+/* margin-left: 5rem; */
+/* margin-bottom: 0; */
+}
+.p{
+    text-indent: 20px;
+    color: orange;
+}
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mywork{
+    text-align: center;
+    font-size: 3.5rem;
+    /* background-color: red; */
+    padding-top: 2rem;
+    color: orange;
+}
+.works{
+    display: flex;
+    justify-content: space-around;
+}
+/* .profile{
+    width: 100px;
+    background-color: red;
+    border-radius: 35%;
+} */
+.img1{
+    width: 30rem;
+    padding-bottom: 2rem;
+    
+}
+.img2{
+    width: 30rem;
+}
+
+.im{
+    transition: .5s ease-in-out;
+    margin-top: 2rem;
+}
+
+.im:hover{
+    transform: scale(1.2);
+}
+.resumeh1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: orange;
+    /* padding-left: 4.5rem; */
+    /* text-align: center; */
+    /* background-color: red; */
+    font-size: 3.5rem;
+    /* border: 7px dashed green; */
+    /* border: groove; */
+    /* border-radius: 40%; */
+    /* width: 120px; */
+}
+.resume{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+#p{
+    font-size: 1.9rem;
+    padding-top: 2rem ;
+    /* background-color: pink; */
+    text-align: center;
+    color: orange;
+}
+#video{
+    width: 40rem;
+    padding-top: 1.3rem ;
+    padding-left: 2.5rem;
+    /* background-color: purple; */
+}
